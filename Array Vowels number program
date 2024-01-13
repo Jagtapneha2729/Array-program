@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class Vowelsnum
+{
+public static void main(String[]args)
+{
+Scanner sc=new Scanner(System.in);
+char char_arr[]=new char[5];
+System.out.println("enter the elements");
+for (int i=0;i<char_arr.length;i++)
+{
+  char_arr[1]=s.next().charAt(0);
+
+}
+int count=0;
+for(int i=0;i<char_arr.length;i++)
+{
+  if{char_arr[i]=='a'||char_arr[i]=='e'||char_arr[i]=='i'||char_arr[i]=='o'||char_arr[]=='u'}
+{
+count++;
+} 
+}
+system.out.println("The number of vowels in givenarray is"+count);
+}
+}
